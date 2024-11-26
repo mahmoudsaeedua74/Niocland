@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+/*share class*/
+.clear_fix {
+    clear: both;
+} 
+.continer {
+    width: 80%;
+    margin-inline: auto ;
+}
+h4 {
+    font-weight: 400px;
+    color: #9999;
+    font-size: .625rem;
+}
+/* start of section header */
+div.navbar {
+    border-bottom: 1px solid gray;
+    padding-block:  55px;
+}
+
+div.navbar div.continer div.navbar_logo {
+display: inline-block;
+width: 49%;
+}
+div.navbar div.continer div.navbar_item  {
+    display: inline-block;
+    width: 49%;
+}
+div.navbar div.continer div.navbar_item ul {
+    list-style: none;
+    text-align: end;
+
+}
+div.navbar div.continer div.navbar_item ul li {
+    display: inline-block;
+    margin-inline: 15px;
+}
+div.navbar div.continer div.navbar_item ul li a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    border-bottom: solid black 5px;
+}
+div.section_header{
+    padding-block: 50px;
+}
+div.section_header div.continer div.img {
+    width: 52%;
+    display: inline-block;
+
+}
+div.section_header div.continer div.img img  {
+    width: 100%;
+}
+div.section_header div.continer div.text {
+    width: 42%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 40px;
+}
+div.section_header div.continer div.text h1{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    line-height: 2.625rem;
+    margin-block: 15px;
+    max-width: 385.016px;
+    font-size: 2.25rem;
+
+
+}
+div.section_header div.continer div.text p{
+    color: #666;
+    line-height: 1.5rem;
+    max-width: 385.016px;
+    padding-block: 15px;
+}
+/* end of section header */
+ /* start  of section two */
+div.section_two {
+    padding-block: 55px;
+}
+
+div.section_two div.continer div.latest {
+    float: left;
+    width: 33.333%;
+    padding: 20px;
+}
+div.section_two div.continer div.latest img{
+    width: 100%;
+}
+div.section_two div.continer div.latest h6{    margin-bottom: 20px;
+
+
+}
+h5 {
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* margin-block: 15px; */
+    padding-block: 15px;
+}
+div.section_two  div button {
+padding: 20px 10px ;
+background-color: white;
+border: solid 1px black;
+text-align: center;
+margin-inline: auto;
+display: block;
+
+}
+.iner {
+    padding: 20px;
+}
+
+ /* end  of section two */
+ /* start  of FEATURED POSTS */
+ div.featuer {
+    padding-bottom: 20px;
+ }
+ div.featuer h4{
+font-size: 1rem; 
+padding-block:10px ;
+}
+ div.feature  {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+ }
+ div.feature  img{
+    width: 100%;
+ }
+ div.feature  div.inner {
+    padding: 10px;
+ }
+ div.feature  div.inner h5{
+    margin-block: 10px;
+ }
+
+ /* end  of FEATURED POSTS */
